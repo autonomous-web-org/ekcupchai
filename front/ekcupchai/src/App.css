@@ -5,10 +5,16 @@
   padding: 2rem;
   text-align: center;
 }
+.logocont{
+  display: flex;        
+  justify-content: center;
+  align-items: center;
+}
 
 .logo {
-  height: 6em;
+  height: 10em;
   padding: 1.5em;
+  margin: 1rem;
   will-change: filter;
   transition: filter 300ms;
 }
