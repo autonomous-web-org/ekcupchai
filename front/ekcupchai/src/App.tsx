@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+// <<<<<<< HEAD
 // import React from 'react'
 // import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 // import './App.css'
@@ -56,20 +56,21 @@ function App() {
       </div>
     </Router>
   );
-=======
+}
+  export default App;
+
+// =======
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
-import './App.css'
+// import './App.css'
 
-function App() {
+// function App() {
 
-  return (
-    <>
-      <h1 className='text-xl font-bold text-center'>hello world</h1>
-    </>
-  )
->>>>>>> refs/remotes/origin/Lakshya-Setup
-}
-
-export default App;
+//   return (
+//     <>
+//       <h1 className='text-xl font-bold text-center'>hello world</h1>
+//     </>
+//   )
+// >>>>>>> refs/remotes/origin/Lakshya-Setup
+// }
