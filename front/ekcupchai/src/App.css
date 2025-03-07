@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 @import "tailwindcss";
-#root {
+/*#root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -47,6 +46,105 @@
 
 .read-the-docs {
   color: #888;
+} */
+
+
+
+/* App.css */
+/* Global Styling */
+@font-feature-values
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;900&display=swap');
+
+body {
+  overflow: hidden;
+  font-family: 'poppins', sans-serif;
+  margin: 0;
+  text-shadow: 2px 2px 10px rgb(0, 0, 0);
+  padding: 0;
+  background: linear-gradient(45deg, #ff416c, #ff4b2b);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
 }
-=======
->>>>>>> refs/remotes/origin/Lakshya-Setup
+
+
+
+div{
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+h1{
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  font-size: xx-large;
+}
+/* Navbar Styling */
+Nav {
+  background: linear-gradient(90deg, #ff8c00, #5100ff);
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  position:fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+/* Navbar List */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+/* Navbar Items */
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effects */
+nav ul li a:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.1);
+}
+
+/* Page Transitions */
+.page {
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Keyframes */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(-10px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
