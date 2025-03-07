@@ -1,44 +1,10 @@
-// <<<<<<< HEAD
-// import React from 'react'
-// import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-// import './App.css'
-// import Nav from '../components/navbar'
-// import Home from '../components/home'
-// import About from '../components/about'
-
-
-// const router = createBrowserRouter([
-//   {
-//     path: "/components/home",
-//     element: <div>Home Page</div>
-//   },
-//   {
-//     path: "/components/about",
-//     element: <div>About Page</div>
-//   }
-// ])
-
-// function App() {
-//   return (
-//     <>
-//       <div><h1>Fatty Buddha </h1></div>
-//       <Nav />
-//       <RouterProvider router={router} />
-//     </>
-//   )
-// }
-
-// export default App
-
-
-
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router";
 import "./App.css";
-import Nav from "../components/navbar";
-import Home from "../components/home";
-import About from "../components/about";
-import Contact from "../components/contact"
+
+import Nav from "./components/navbar";
+import Home from "./components/home";
+import GetStarted from "./components/get_started";
 
 function App() {
   return (
@@ -47,11 +13,8 @@ function App() {
         <h1>Fatty Buddha</h1>
         <Nav />
         <Routes>
-          <Route path="/home" element={<Home />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/q"  />
-          <Route path="/qr"  />
+          <Route index element={<Home />} />
+          <Route path="/get-started" element={<GetStarted />} />
         </Routes>
       </div>
     </Router>
