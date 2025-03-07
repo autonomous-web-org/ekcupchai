@@ -1,5 +1,10 @@
+// <<<<<<< Lakshya-Setup
 // import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router";
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// =======
+// // import React from "react";
+// import { BrowserRouter as Router, Routes, Route } from "react-router";
+// >>>>>>> main
 import "./App.css";
 
 import Nav from "./components/navbar";
@@ -21,19 +26,3 @@ function App() {
   );
 }
   export default App;
-
-// =======
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-// import './App.css'
-
-// function App() {
-
-//   return (
-//     <>
-//       <h1 className='text-xl font-bold text-center'>hello world</h1>
-//     </>
-//   )
-// >>>>>>> refs/remotes/origin/Lakshya-Setup
-// }
