@@ -21,6 +21,8 @@ const Nav: React.FC = () => {
                 <li><a href="/about">About</a></li>
                 <li><a href="/home">Home</a></li>
                 <li><a href="/contact">Contact</a></li>
+                <li><a href="/q">/</a></li>
+                <li><a href="/qr">/qr</a></li>
             </ul>
         </nav>
     );
