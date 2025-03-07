@@ -1,10 +1,15 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// <<<<<<< Lakshya-Setup
+// import React from "react";
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// =======
+// // import React from "react";
+// import { BrowserRouter as Router, Routes, Route } from "react-router";
+// >>>>>>> main
 import "./App.css";
-import Nav from "../components/navbar";
-import Home from "../components/home";
-import About from "../components/about";
-import Contact from "../components/contact"
+
+import Nav from "./components/navbar";
+import Home from "./components/home";
+import GetStarted from "./components/get_started";
 
 function App() {
   return (
@@ -13,11 +18,8 @@ function App() {
         <h1>Fatty Buddha</h1>
         <Nav />
         <Routes>
-          <Route path="/home" element={<Home />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/q"  />
-          <Route path="/qr"  />
+          <Route index element={<Home />} />
+          <Route path="/get-started" element={<GetStarted />} />
         </Routes>
       </div>
     </Router>
