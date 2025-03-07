@@ -1,0 +1,19 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router";
+import App from "./app";
+
+const root = document.getElementById("root");
+
+
+if (root){
+    ReactDOM.createRoot(root).render(
+    <BrowserRouter>
+    <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="/q" element={<App />} />
+        </Routes>
+        <App />
+    </BrowserRouter>
+    );
+}
