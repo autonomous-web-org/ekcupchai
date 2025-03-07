@@ -19,8 +19,8 @@ const Nav: React.FC = () => {
         <nav>
             <ul>
                 <li><a href="/components/about.tsx">About</a></li>
-                <li><a href="/">Home</a></li>
-                <li><a href="/">Contact</a></li>
+                <li><a href="/components/home">Home</a></li>
+                <li><a href="/components/contact">Contact</a></li>
             </ul>
         </nav>
     );
